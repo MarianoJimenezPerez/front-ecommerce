@@ -1,0 +1,76 @@
+.mainHeader{
+    align-items: center;
+    display: grid;
+    grid-template-columns: min-content minmax(80px, 1fr) minmax(80px, 1fr);
+    justify-items: start;
+    margin: 1em auto;
+    max-width: 1140px;
+}
+.mainHeader_searchBox{
+    position: relative;
+}
+.mainHeader_searchBox input{
+    background-color: #F5F5F5;
+    border: none;
+    border-radius: 20px;
+    font-size: 14px;
+    height: 20px;
+    line-height: 16px;
+    margin: 0 16px;
+    padding: 8px 16px;
+    outline: none;
+    width: 350px;
+}
+.mainHeader_searchBox img{
+    content: url(./../../vectors/lupa-gris.svg);
+    position: absolute;
+    right: 5%;
+    top: 20%;
+}
+.mainHeader__login{
+    justify-self: end;
+}
+.mainHeader__login{
+    justify-self: end;
+}
+.mainHeader_mobileSearch{
+    display: none;
+}
+
+
+@media screen and (max-width: 1140px){
+    .mainHeader{
+        margin: 1em 8px;
+    }
+}
+@media screen and (max-width: 768px){
+    .mainHeader{
+        grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
+    }
+    .mainHeader_logo{
+        width: 100px;
+    }
+    .mainHeader_logo img{
+        width: 100%;
+    }
+    .mainHeader_searchBox{
+        display: none;
+    }
+    .mainHeader__login{
+        justify-self: center;
+    }
+    .mainHeader_mobileSearch{
+        display: inline;
+        justify-self: end;
+    }
+}
+@media screen and (max-width: 320px){
+    .mainHeader_logo{
+        justify-self: center;
+        width: 80px;
+    }
+    .mainHeader_mobileSearch{
+        justify-self: center;
+    }
+    
+}

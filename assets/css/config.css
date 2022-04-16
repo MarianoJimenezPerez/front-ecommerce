@@ -1,0 +1,50 @@
+/*FONT IMPORT > RALEWAY l300,r400,r400i,m500,b700,eb800*/
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,400;0,500;0,700;0,800;1,400&display=swap');
+
+
+/*VARS*/
+:root {
+    --azul-principal: #2A7AE4;
+    --blanco-pleno: #ffffff;
+}
+
+body {
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+}
+
+ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+button{
+    background-color: var(--blanco-pleno);
+    border: 1px solid var(--azul-principal);
+    color: var(--azul-principal);
+    padding: 10px 40px;
+    text-transform: capitalize;
+    transition: all ease-in-out .1s;
+}
+button:hover{
+    background-color: var(--azul-principal);
+    color: var(--blanco-pleno);
+}
+@media screen and (max-width: 640px){
+    button{
+        padding: 5px 20px;
+    }
+}
+@media screen and (max-width: 320px){
+    button{
+        padding: 5px 10px;
+    }
+}
