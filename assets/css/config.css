@@ -38,6 +38,17 @@ button:hover{
     background-color: var(--azul-principal);
     color: var(--blanco-pleno);
 }
+.btn-secondary{
+    background-color: var(--azul-principal);
+    border: 1px solid var(--blanco-pleno);
+    color: var(--blanco-pleno);
+}
+.btn-secondary:hover{
+    background-color: var(--blanco-pleno);
+    border: 1px solid var(--azul-principal);
+    color: var(--azul-principal);
+}
+
 @media screen and (max-width: 640px){
     button{
         padding: 5px 20px;
