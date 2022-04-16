@@ -1,0 +1,120 @@
+.mainFooter{
+    background-color: #EAF2FD;
+    display: flex;
+    flex-direction: column;
+    padding: 2em 0;
+}
+.mainFooter_topBar{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    justify-content: space-between;
+    margin: 1em auto;
+    max-width: 1140px;
+    width: 100%;
+}
+.mainFooter_helpBox{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 50%;
+}
+.mainFooter_logoContainer{
+    width: 50%;
+}
+.mainFooter_navContainer{
+    width: 50%;
+}
+.mainFooter_nav ul{
+    list-style: none;
+}
+.mainFooter_nav ul li{
+    font-weight: 500;
+    list-style: none;
+    margin-bottom: 24px;
+}
+.mainFooter_nav ul li a{
+    text-decoration: none;
+    color: inherit;
+}
+.mainFooter_contactBox h4{
+    font-weight: 700;
+}
+.mainFooter_contactBox form{
+    width: 100%;
+}
+.mainFooter_contactBox form input{
+    height: 56px;
+}
+.mainFooter_contactBox form textarea{
+    height: 82px;
+    resize: none;
+}
+.mainFooter_contactBox form input, .mainFooter_contactBox form textarea{
+    border: none;
+    border-radius: 4px;
+    margin: 8px 0px;
+    outline: none;
+    padding: 5px 10px 0 10px;
+    width: calc(100% - 23px);
+}
+.mainFooter_contactBox form input::placeholder, .mainFooter_contactBox form textarea::placeholder{
+    opacity: 0.7;
+}
+.mainFooter_botBar h1{
+    text-align: center;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+    margin: 32px 0 0 0;
+}
+@media screen and (max-width: 1140px){
+    .mainFooter_botBar{
+        margin: 1em 8px;
+    }
+    .mainFooter_contactBox form input, .mainFooter_contactBox form textarea{
+        width: calc(100% - 31px);
+    }
+}
+@media screen and (max-width: 980px){
+    .mainFooter_helpBox{
+        flex-direction: column;
+    }
+    .mainFooter_navContainer{
+        margin: 16px 8px;
+    }
+}
+@media screen and (max-width: 768px){
+    .productCategory_list{
+        justify-content: space-around;
+    }
+    .productCategory_box{
+        max-width: 156px;
+    }
+    .productCategory_box--extra{
+        display: none;
+    }
+    .btn{
+        font-size: 14px;
+        line-height: 16px;
+    }
+}
+@media screen and (max-width: 540px){
+    .mainFooter_topBar{
+        align-items: center;
+        flex-direction: column;
+    }
+    .mainFooter_helpBox{
+        text-align: center;
+        width: 100%;
+    }
+    .mainFooter_logoContainer{
+        align-self: center;
+    }
+    .mainFooter_navContainer{
+        align-self: center;
+    }
+    .mainFooter_contactBox{
+        margin: 0 8px;
+    }
+}
