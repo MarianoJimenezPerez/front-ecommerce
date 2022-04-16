@@ -111,6 +111,9 @@
     .mainFooter_logoContainer{
         align-self: center;
     }
+    .mainFooter_logoContainer a img{
+        width: 80px;
+    }
     .mainFooter_navContainer{
         align-self: center;
     }
