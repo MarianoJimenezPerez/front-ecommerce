@@ -35,11 +35,17 @@
 }
 
 @media screen and (max-width: 1140px){
+    .hero{
+        height: 320px;
+    }
     .hero_description{
         margin: 2em 8px;
     }
 }
 @media screen and (max-width: 768px){
+    .hero{
+        height: 192px;
+    }
     .hero_description h2{
         font-size: 22px;
         line-height: 26px;
@@ -52,5 +58,12 @@
     }
 }
 @media screen and (max-width: 320px){
-    
+    .hero{
+        height: 180px;
+    }
+    .hero_description{
+        background-color: rgb(0,0,0,0.5);
+        margin: .5em 0;
+        padding: 8px;
+    }
 }
