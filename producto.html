@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/normalize.css">
+    <link rel="stylesheet" href="./assets/css/config.css">
+    <link rel="stylesheet" href="./assets/css/header/header.css">
+    <link rel="stylesheet" href="./assets/css/footer/footer.css">
+    <link rel="stylesheet" href="./assets/css/product-category/productCategory.css">
+    <link rel="stylesheet" href="./assets/css/product-page/productPage.css">
+
+    <title>AluraGeek producto</title>
+</head>
+<body>
+    <header class="mainHeader">
+        <div class="mainHeader_logo">
+            <a href="index.html">
+                <img src="./assets/logos/logo.svg" alt="Logo AluraGeek">
+            </a>
+        </div>
+        <div class="mainHeader_searchBox">
+            <form action="">
+                <input type="text" placeholder="¿Qué deseas buscar?">
+                <img src="./assets/vectors/lupa-gris.svg" alt="Icono lupa gris">
+            </form>
+        </div>
+        <a class="mainHeader__login"href="/login.html">
+            <button>Login</button>
+        </a>
+        <a class="mainHeader_mobileSearch" href="">
+            <img src="./assets/vectors/lupa-negra.svg" alt="Icono lupa negra">
+        </a>
+    </header>
+    <section class="productPage">
+        <div class="productPage_container">
+            <div class="productPage_image">
+                <img src="./assets/productos/starwars/1.svg" alt="">
+            </div>
+            <div class="productPage_description">
+                <h2>Producto XYZ</h2>
+                <span>$ 60,00</span>
+                <p>Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam</p>
+            </div>
+        </div>
+        <section class="productCategory" category="similar">
+            <div class="productCategory_container">
+                <div class="productCategory_topBar">
+                    <h3>Productos similares</h3>
+                </div>
+                <ul class="productCategory_list">
+                    <li class="productCategory_box">
+                        <img src="./assets/productos/starwars/1.svg" alt="Producto XYZ">
+                        <h4>Producto XYZ</h4>
+                        <span>$ 60,00</span>
+                        <a class="btn" href="#">Ver producto</a>
+                    </li>
+                    <li class="productCategory_box">
+                        <img src="./assets/productos/starwars/2.svg" alt="Producto XYZ">
+                        <h4>Producto XYZ</h4>
+                        <span>$ 60,00</span>
+                        <a class="btn" href="#">Ver producto</a>
+                    </li>
+                    <li class="productCategory_box">
+                        <img src="./assets/productos/starwars/3.svg" alt="Producto XYZ">
+                        <h4>Producto XYZ</h4>
+                        <span>$ 60,00</span>
+                        <a class="btn" href="#">Ver producto</a>
+                    </li>
+                    <li class="productCategory_box">
+                        <img src="./assets/productos/starwars/4.svg" alt="Producto XYZ">
+                        <h4>Producto XYZ</h4>
+                        <span>$ 60,00</span>
+                        <a class="btn" href="#">Ver producto</a>
+                    </li>
+                    <li class="productCategory_box--extra">
+                        <img src="./assets/productos/starwars/5.svg" alt="Producto XYZ">
+                        <h4>Producto XYZ</h4>
+                        <span>$ 60,00</span>
+                        <a class="btn" href="#">Ver producto</a>
+                    </li>
+                    <li class="productCategory_box--extra">
+                        <img src="./assets/productos/starwars/6.svg" alt="Producto XYZ">
+                        <h4>Producto XYZ</h4>
+                        <span>$ 60,00</span>
+                        <a class="btn" href="#">Ver producto</a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </section>
+    <footer class="mainFooter">
+        <div class="mainFooter_topBar">
+            <div class="mainFooter_helpBox">
+                <div class="mainFooter_logoContainer">
+                    <a href="index.html">
+                        <img src="./assets/logos/logo.svg" alt="Logo AluraGeek">
+                    </a>
+                </div>
+                <div class="mainFooter_navContainer">
+                    <nav class="mainFooter_nav">
+                        <ul>
+                            <li><a href="">Quienes somos</a></li>
+                            <li><a href="">Política de privacidad</a></li>
+                            <li><a href="">Nuestras tiendas</a></li>
+                            <li><a href="">Quiero ser franquiciado</a></li>
+                            <li><a href="">Anúncie aquí</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+            <div class="mainFooter_contactBox">
+                <h4>Hable con nosotros</h4>
+                <form action="">
+                    <input type="text" placeholder="Nombre" required>
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Escribe tu mensaje" required></textarea>
+                    <button class="btn-secondary">Enviar mensaje</button>
+                </form>
+            </div>
+        </div>
+        <div class="mainFooter_botBar">
+            <h1>© Todos los derechos reservados. Mariano Jiménez Pérez 2022</h1>
+        </div>
+    </footer>
+</body>
+</html>
