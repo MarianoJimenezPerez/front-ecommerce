@@ -10,6 +10,7 @@
 }
 
 body {
+    background-color: #F5F5F5;
     box-sizing: border-box;
     color: var(--texto);
     font-family: 'Raleway', sans-serif;
@@ -33,12 +34,12 @@ button{
     border: 1px solid var(--azul-principal);
     color: var(--azul-principal);
     padding: 10px 40px;
-    text-transform: capitalize;
     transition: all ease-in-out .1s;
 }
 button:hover{
     background-color: var(--azul-principal);
     color: var(--blanco-pleno);
+    cursor: pointer;
 }
 .btn-secondary{
     background-color: var(--azul-principal);
@@ -48,6 +49,13 @@ button:hover{
 .btn-secondary:hover{
     background-color: var(--blanco-pleno);
     border: 1px solid var(--azul-principal);
+    color: var(--azul-principal);
+}
+.btn-secondary a{
+    color: var(--blanco-pleno);
+    text-decoration: none;
+}
+.btn-secondary:hover > a{
     color: var(--azul-principal);
 }
 

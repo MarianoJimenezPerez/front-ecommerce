@@ -14,24 +14,26 @@
     <title>AluraGeek producto</title>
 </head>
 <body>
-    <header class="mainHeader">
-        <div class="mainHeader_logo">
-            <a href="index.html">
-                <img src="./assets/logos/logo.svg" alt="Logo AluraGeek">
+    <header>
+        <div class="mainHeader">
+            <div class="mainHeader_logo">
+                <a href="index.html">
+                    <img src="./assets/logos/logo.svg" alt="Logo AluraGeek">
+                </a>
+            </div>
+            <div class="mainHeader_searchBox">
+                <form action="">
+                    <input type="text" placeholder="¿Qué deseas buscar?">
+                    <img src="./assets/vectors/lupa-gris.svg" alt="Icono lupa gris">
+                </form>
+            </div>
+            <a class="mainHeader__login"href="/login.html">
+                <button>Login</button>
+            </a>
+            <a class="mainHeader_mobileSearch" href="">
+                <img src="./assets/vectors/lupa-negra.svg" alt="Icono lupa negra">
             </a>
         </div>
-        <div class="mainHeader_searchBox">
-            <form action="">
-                <input type="text" placeholder="¿Qué deseas buscar?">
-                <img src="./assets/vectors/lupa-gris.svg" alt="Icono lupa gris">
-            </form>
-        </div>
-        <a class="mainHeader__login"href="/login.html">
-            <button>Login</button>
-        </a>
-        <a class="mainHeader_mobileSearch" href="">
-            <img src="./assets/vectors/lupa-negra.svg" alt="Icono lupa negra">
-        </a>
     </header>
     <section class="productPage">
         <div class="productPage_container">
@@ -115,7 +117,7 @@
                 <form action="">
                     <input type="text" placeholder="Nombre" required>
                     <textarea name="" id="" cols="30" rows="10" placeholder="Escribe tu mensaje" required></textarea>
-                    <button class="btn-secondary">Enviar mensaje</button>
+                    <button class="btn-secondary" type="submit">Enviar mensaje</button>
                 </form>
             </div>
         </div>

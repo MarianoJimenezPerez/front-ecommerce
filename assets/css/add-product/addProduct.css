@@ -1,0 +1,101 @@
+.addProduct{
+    margin: 1em auto;
+    max-width: 1140px;
+    padding: 1em 0;
+}
+.addProduct_container{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 50%;
+}
+.addProduct_container h2{
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38px;
+    text-align: left;
+}
+.addProduct_form{
+    display: flex;
+    flex-direction: column;
+}
+.addProduct_dropFile{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    justify-content: space-between;
+    margin: 8px 0;
+    width: 100%;
+}
+.addProduct_dropFile div{
+    align-items: center;
+    background-color: #ffffff;
+    border: 1px dashed #C8C8C8;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 32px;
+}
+.addProduct_dropFile div img{
+    margin: 16px 0;
+}
+.addProduct_dropFile div span{
+    font-size: 14px;
+    line-height: 20px;
+}
+.addProduct_form input, .addProduct_form textarea{
+    border: none;
+    border-radius: 4px;
+    height: 56px;
+    margin: 8px 0;
+    outline: none;
+    padding: 5px 10px 0 10px;
+}
+.addProduct_form textarea{
+    height: 82px;
+    resize: none;
+}
+.addProduct_form input, .addProduct_form textarea{
+    margin: 8px 0;
+}
+.addProduct_form input::placeholder, .addProduct_form textarea::placeholder{
+    opacity: 0.7;
+}
+
+@media screen and (max-width: 1140px){
+    
+}
+@media screen and (max-width: 980px){
+    .addProduct{
+        margin: 1em 8px;
+    }
+    .addProduct_container{
+        width: 100%;
+    }
+    .addProduct_container h2{
+        font-size: 22px;
+        line-height: 26px;
+    }
+    .addProduct_dropFile{
+        justify-content: flex-start;
+    }
+}
+@media screen and (max-width: 768px){
+    
+}
+@media screen and (max-width: 540px){
+    .addProduct_dropFile{
+        flex-direction: column;
+        
+    }
+    .addProduct_dropFile div{
+        margin: 0 8px;
+        padding: 25px 0;
+        width: 100%;
+    }
+    .addProduct_dropFile button{
+        display: none;
+    }
+}

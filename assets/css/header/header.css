@@ -1,9 +1,13 @@
+header{
+    background-color: #ffffff;
+    padding: 1em 0;
+}
 .mainHeader{
     align-items: center;
     display: grid;
     grid-template-columns: min-content minmax(80px, 1fr) minmax(80px, 1fr);
     justify-items: start;
-    margin: 1em auto;
+    margin: 0 auto;
     max-width: 1140px;
 }
 .mainHeader_searchBox{

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/normalize.css">
+    <link rel="stylesheet" href="./assets/css/config.css">
+    <link rel="stylesheet" href="./assets/css/header/header.css">
+    <link rel="stylesheet" href="./assets/css/footer/footer.css">
+    <link rel="stylesheet" href="./assets/css/add-product/addProduct.css">
+    <title>AluraGeek agregar producto</title>
+</head>
+<body>
+    <header>
+        <div class="mainHeader">
+            <div class="mainHeader_logo">
+                <a href="index.html">
+                    <img src="./assets/logos/logo.svg" alt="Logo AluraGeek">
+                </a>
+            </div>
+            <div class="mainHeader_searchBox">
+                <form action="">
+                    <input type="text" placeholder="¿Qué deseas buscar?">
+                    <img src="./assets/vectors/lupa-gris.svg" alt="Icono lupa gris">
+                </form>
+            </div>
+            <a class="mainHeader__login"href="/login.html">
+                <button>Login</button>
+            </a>
+            <a class="mainHeader_mobileSearch" href="">
+                <img src="./assets/vectors/lupa-negra.svg" alt="Icono lupa negra">
+            </a>
+        </div>
+    </header>
+    <section class="addProduct">
+        <div class="addProduct_container">
+            <h2>Agregar nuevo producto</h2>
+            <form class="addProduct_form" action="">
+                <div class="addProduct_dropFile">
+                    <div>
+                        <img src="./assets/logos/img.svg" alt="Logo imagen">
+                        <span>Arrastre para agregar una imagen para el producto</span>
+                    </div>
+                    <button>Busque en su computador</button>
+                </div>
+                <input type="text" placeholder="Nombre del producto" required>
+                <input type="text" placeholder="Precio del producto" required>
+                <textarea name="" id="" cols="30" rows="10" placeholder="Descripción del producto" required></textarea>
+                <button class="btn-secondary" type="submit">Agregar producto</button>
+            </form>
+        </div>
+    </section>
+    <footer class="mainFooter">
+        <div class="mainFooter_topBar">
+            <div class="mainFooter_helpBox">
+                <div class="mainFooter_logoContainer">
+                    <a href="index.html">
+                        <img src="./assets/logos/logo.svg" alt="Logo AluraGeek">
+                    </a>
+                </div>
+                <div class="mainFooter_navContainer">
+                    <nav class="mainFooter_nav">
+                        <ul>
+                            <li><a href="">Quienes somos</a></li>
+                            <li><a href="">Política de privacidad</a></li>
+                            <li><a href="">Nuestras tiendas</a></li>
+                            <li><a href="">Quiero ser franquiciado</a></li>
+                            <li><a href="">Anúncie aquí</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+            <div class="mainFooter_contactBox">
+                <h4>Hable con nosotros</h4>
+                <form action="">
+                    <input type="text" placeholder="Nombre" required>
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Escribe tu mensaje" required></textarea>
+                    <button class="btn-secondary" type="submit">Enviar mensaje</button>
+                </form>
+            </div>
+        </div>
+        <div class="mainFooter_botBar">
+            <h1>© Todos los derechos reservados. Mariano Jiménez Pérez 2022</h1>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,5 +1,4 @@
 .login{
-    background-color: #F5F5F5;
     padding: 3em 0;
 }
 .login h2{
@@ -25,6 +24,9 @@
     margin: 8px 0;
     outline: none;
     padding: 5px 10px 0 10px;
+}
+.login form input::placeholder{
+    opacity: 0.7;
 }
 
 @media screen and (max-width: 1140px){
